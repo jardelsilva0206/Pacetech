@@ -1,0 +1,4 @@
+1. SELECT First_name, Last_name, Salary, Departement FROM Employee ORDER BY Salary DESC;
+2. SELECT Departement FROM Employee GROUP BY Departement;
+3. SELECT AVG(Salary) FROM employee;
+4. SELECT First_name,Last_name,Salary FROM employee WHERE Salary> (SELECT AVG(Salary) FROM employee);
